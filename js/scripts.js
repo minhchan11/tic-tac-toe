@@ -14,9 +14,9 @@ function TicTac(Box1, Box2, Box3, Box4, Box5, Box6, Box7, Box8, Box9) {
 }
 
 TicTac.prototype.check = function () {
-  if (this.Box1 === 1 && this.Box2 === 1 || this.Box1 === 1 && this.Box3 === 1 || this.Box1 === 1 && this.Box4 === 1 || this.Box2 === 1 && this.Box3 === 1 || this.Box2 === 1 && this.Box4 === 1  ) {
+  if (this.Box1 === 1 && this.Box2 === 1 && this.Box3 === 1|| this.Box4 === 1 && this.Box5 === 1 && this.Box6 === 1 || this.Box7 === 1 && this.Box8 === 1 && this.Box9 === 1 || this.Box1 === 1 && this.Box4 === 1 && this.Box7 === 1 || this.Box2 === 1 && this.Box5 === 1 && this.Box8 === 1 || this.Box3 === 1 && this.Box6 === 1 && this.Box9 === 1 || this.Box1 === 1 && this.Box5 === 1 && this.Box9 === 1 || this.Box3 === 1 && this.Box5 === 1 && this.Box7 === 1 ) {
     alert("you win!");
-  } else if (this.Box1 === 2 && this.Box2 === 2 || this.Box1 === 2 && this.Box3 === 2 || this.Box1 === 2 && this.Box4 === 2 || this.Box2 === 2 && this.Box3 === 2 || this.Box2 === 2 && this.Box4 === 2  ) {
+  } else if (this.Box1 === 2 && this.Box2 === 2 && this.Box3 === 2|| this.Box4 === 2 && this.Box5 === 2 && this.Box6 === 2 || this.Box7 === 2 && this.Box8 === 2 && this.Box9 === 2 || this.Box1 === 2 && this.Box4 === 2 && this.Box7 === 2 || this.Box2 === 2 && this.Box5 === 2 && this.Box8 === 2 || this.Box3 === 2 && this.Box6 === 2 && this.Box9 === 2 || this.Box1 === 2 && this.Box5 === 2 && this.Box9 === 2 || this.Box3 === 2 && this.Box5 === 2 && this.Box7 === 2 ) {
     alert("you also win!");
   };
 
