@@ -54,3 +54,20 @@ $(document).ready(function() {
     player.check();
   })
 });
+
+
+var player = 0
+$(document).ready(function() {
+  $("input#square").click(function() {
+    if (player === 0) {
+        $(this).val("X");
+        $(this).disabled = true;
+        player += 1;
+    } else {
+      $(this).val("O");
+      $(this).disabled = true;
+      player -=1;
+    }
+
+  });
+});
